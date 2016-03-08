@@ -3,7 +3,7 @@
   "main": "index.d.ts",
   "homepage": "https://github.com/producthunt/chai-enzyme",
   "dependencies": {
-    "chai": "github:typed-typings/npm-chai#536036f23802047ace17b0bdbe5d51ab047dddd3",
+    "chai": "github:asvetliakov/npm-chai",
     "enzyme": "github:asvetliakov/typings-enzyme"
   },
   "ambientDevDependencies": {

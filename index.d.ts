@@ -1,8 +1,8 @@
 import {EnzymeSelector, ShallowWrapper, ReactWrapper, CheerioWrapper} from 'enzyme';
-import {Assertion} from "chai/lib/Assertion";
+import {Assertion} from '~chai/lib/Assertion';
 
 // Augment chai assertions
-declare module 'chai/lib/Assertion' {
+declare module '~chai/lib/Assertion' {
     interface Match {
         (selector: EnzymeSelector): Assertion;
     }
