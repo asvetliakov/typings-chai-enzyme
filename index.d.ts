@@ -135,6 +135,6 @@ declare module '~chai/lib/Assertion' {
 }
 
 type DebugWrapper = ShallowWrapper<any,any> | CheerioWrapper<any, any> | ReactWrapper<any, any>;
-declare function chaiEnzyMe(debugWrapper?: DebugWrapper): (chai: any) => void;
+declare function chaiEnzyMe(wrapper?: (debugWrapper: DebugWrapper) => string): (chai: any) => void;
 
 export = chaiEnzyMe;
